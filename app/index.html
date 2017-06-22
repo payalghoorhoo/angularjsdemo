@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html ng-app="routerApp">
+<head>
+    <script src= "assets/angular.min.js"> </script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"> </script>
+    <script src= "js/app.js"> </script>
+    <script src= "secondpage/ctrl.js"></script>
+</head>
+
+<body ng-app="routerApp">
+<div>
+    <a ui-sref="home">Home </a><br/>
+    <a ui-sref="txt">Second Page</a>
+    <div ui-view></div>
+</div>
+</body>
+</html>
